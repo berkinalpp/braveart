@@ -61,3 +61,36 @@ header a:hover {
     line-height: 2;
     font-size:1.3rem;
 }
+
+/* Showcase */
+
+#showcase {
+    display:flex;
+    background-image: url("img/showcase.jpg");
+    height:75vh;
+    color:#fff;
+}
+#showcase h1 {
+    font-size:3rem;
+    line-height: 2.3;
+    word-spacing: 2;
+    text-align: center;
+}
+#showcase p {
+    font-size:1.2rem;
+    text-align: center;
+}
+
+/* Newsletter */
+
+#newsletter {
+    height: 15vh;
+    background-color:#35424a;
+    color:#fff;
+    display:flex;
+}
+#newsletter .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
